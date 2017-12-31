@@ -1,0 +1,35 @@
+form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+form label {
+    display: inline-block;
+    width: 30%;
+}
+
+form label input {
+    width: 95%;
+}
+
+form label span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+
+textarea {
+    width: 89%;
+    height: 150px;
+}
+
+.fill {
+    width: 100%;
+}
+
+@media (max-width: 810px) {
+    form label {
+        width: 89%;
+    }
+}

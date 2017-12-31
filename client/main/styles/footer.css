@@ -1,0 +1,49 @@
+footer {
+    margin: 50px auto 20px auto;
+    text-align: center;
+    width: 90%;
+}
+
+footer a {
+    color: #000;
+}
+
+.footer-divider {
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    height: 2px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social .icon {
+    display: inline;
+    margin: 0;
+    padding: 0 3px;
+}
+
+.stroke {
+    stroke-linecap: round;
+}
+
+@media only screen and (max-width: 750px) {
+    .fa-2x {
+        font-size: 1.5em;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+}
